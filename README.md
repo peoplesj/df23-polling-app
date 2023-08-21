@@ -1,6 +1,6 @@
 # Polling workshop template
 
-In this polling workshop template the folders and blank files have already been created.
+In this polling workshop template the folders and blank files have already been created and a few files are partially complete.
 
 **Guide Outline**:
 
@@ -37,7 +37,7 @@ Start by cloning this repository:
 
 ```zsh
 # Clone this project onto your machine
-$ slack create my-app -t peoplesj/polling-workshop-template
+$ slack create my-app -t peoplesj/df23-polling-app
 
 # Change into the project directory
 $ cd my-app
