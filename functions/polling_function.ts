@@ -64,6 +64,7 @@ export default SlackFunction(
         interactivity,
       } = inputs;
 
+      //Block Kit Builder: https://app.slack.com/block-kit-builder/T5J4Q04QG#%7B%22blocks%22:%5B%7B%22type%22:%22section%22,%22text%22:%7B%22type%22:%22mrkdwn%22,%22text%22:%22%3C@$%7Binteractivity?.interactor.id%7D%3E%20posed%20the%20following%20question:%22%7D%7D,%7B%22type%22:%22divider%22%7D,%7B%22type%22:%22section%22,%22text%22:%7B%22type%22:%22mrkdwn%22,%22text%22:%22*$%7Bpoll_question%7D*%22%7D%7D,%7B%22type%22:%22section%22,%22text%22:%7B%22type%22:%22plain_text%22,%22text%22:%22:one:%20%20$%7Boption_1%7D%22,%22emoji%22:true%7D%7D,%7B%22type%22:%22section%22,%22text%22:%7B%22type%22:%22plain_text%22,%22text%22:%22:two:%20%20$%7Boption_2%7D%22,%22emoji%22:true%7D%7D,%7B%22type%22:%22section%22,%22text%22:%7B%22type%22:%22plain_text%22,%22text%22:%22:three:%20%20$%7Boption_3%7D%22,%22emoji%22:true%7D%7D,%7B%22type%22:%22divider%22%7D%5D%7D
       const blocks = [
         {
           "type": "section",
